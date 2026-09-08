@@ -1,0 +1,85 @@
+# ==========================================
+# Reasona AI - Python + Streamlit + LangGraph
+# ==========================================
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Environment Variables (API Keys)
+.env
+.env.*
+!.env.example
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Compiled Python files
+*.so
+*.pyd
+*.dll
+
+# Distribution / Build
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Logs
+*.log
+logs/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Pytest / Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# VS Code
+.vscode/
+.history/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Streamlit Cache
+.streamlit/cache/
+
+# LangGraph / SQLite Databases
+*.db
+*.sqlite
+*.sqlite3
+chatbot.db
+langgraph_database.db
+
+# Temporary Files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Secrets & Credentials
+secrets.toml
+credentials.json
+service_account.json
+
+# Node (if frontend is added later)
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Generated Media
+outputs/
+generated_images/
+generated_audio/
